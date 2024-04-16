@@ -1,7 +1,7 @@
 .app-sidebar-minified:not(.app-without-sidebar) {
 	& .app-sidebar:not(.app-sidebar-end) {
 		width: $app-sidebar-width-minified;
-		
+		margin-top: 56px;
 		
 		& .menu {
 			& > .menu-item {
@@ -54,6 +54,7 @@
 	}
 	& .app-sidebar-bg:not(.app-sidebar-end) {
 		width: $app-sidebar-width-minified;
+		margin-top: 56px;
 	}
 	& .app-sidebar-minify-btn {
 		& i {
