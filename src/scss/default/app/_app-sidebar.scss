@@ -225,6 +225,7 @@
 				align-items: center;
 				font-weight: var(--#{$prefix}app-sidebar-menu-link-font-weight);
 
+	
 
 				// width: 64px;
 				height: 64px;
@@ -377,8 +378,6 @@
 						text-decoration: none;
 						position: relative;
 						line-height: rem(18px);
-						// width: 18px;
-						// height: 18.733px;
 						color: var(--#{$prefix}app-sidebar-menu-submenu-link-color);
 						font-weight: var(--#{$prefix}app-sidebar-menu-submenu-link-font-weight);
 
@@ -522,6 +521,7 @@
 					& .menu-caret {
 						@include gradient-enabled {
 							color: rgba($black, .5);
+							
 						}
 					}
 
