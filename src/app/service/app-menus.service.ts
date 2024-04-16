@@ -23,8 +23,8 @@ export class AppMenuService {
 				'title': 'Calls Management',
 				// 'caret': 'true',
 				}, {
-				'url': '/menu/2',
-				'title': 'Menu 1.2'
+				'url': '/login',
+				'title': 'login'
 			}, {
 				'url': '/menu/3',
 				'title': 'Menu 1.3'
