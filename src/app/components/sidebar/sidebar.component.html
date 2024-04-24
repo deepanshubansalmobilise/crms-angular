@@ -62,13 +62,14 @@
 
       <!-- render sidebarMenuNav -->
       <ng-template #sidebarMenuNav let-menu="menu">
-        <div class="menu-icon-img" *ngIf="menu.img"><img src="{{ menu.img }}" /></div>
-        <!-- <div class="menu-icon" *ngIf="menu.icon"><i class="{{ menu.icon }}"></i></div> -->
+        <div class="menu-icon" *ngIf="menu.icon">
+          <img src="{{ menu.icon }}" />
+        </div>
         <div class="menu-text" *ngIf="menu.title">
           {{ menu.title }}
-          <span class="menu-label" *ngIf="menu.label">{{ menu.label }}</span>
+          <!-- <span class="menu-label" *ngIf="menu.label">{{ menu.label }}</span> -->
         </div>
-        <div class="menu-badge" *ngIf="menu.badge">{{ menu.badge }}</div>
+        <!-- <div class="menu-badge" *ngIf="menu.badge">{{ menu.badge }}</div> -->
         <!-- <div class="menu-caret" *ngIf="menu.caret"></div> -->
       </ng-template>
 

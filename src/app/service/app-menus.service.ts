@@ -7,21 +7,19 @@ import { Injectable } from '@angular/core';
 export class AppMenuService {
 	getAppMenus() {
 		return [{
-			'icon': 'fa fa-sitemap',
 			'title': 'Dashboard',
 			'url': '/dashboard',
-			'img': 'assets/images/dashboard.svg'
+			'icon': 'assets/images/dashboard.svg'
+			
 		},
 		{
-			'icon': 'fa fa-align-left',
 			'title': 'Calls',
 			'url': '/calls',
-			'img': 'assets/images/phone.svg',
+			'icon': 'assets/images/phone.svg',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/calls',
 				'title': 'Calls Management',
-				// 'caret': 'true',
 				}, {
 				'url': '/login',
 				'title': 'login'
@@ -31,15 +29,13 @@ export class AppMenuService {
 			}]
 		},
 		{
-			'icon': 'fa fa-align-left',
 			'title': 'Challan',
 			'url': '/menu',
-			'img': 'assets/images/challan.svg',
+			'icon': 'assets/images/challan.svg',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/customer',
 				'title': 'Create Challan',
-				// 'caret': 'true',
 				
 			}, {
 				'url': '/menu/2',
@@ -50,10 +46,9 @@ export class AppMenuService {
 			}]
 		},
 		{
-			'icon': 'fa fa-align-left',
 			'title': 'Inventory',
 			'url': '/menu',
-			'img': 'assets/images/inventory.svg',
+			'icon': 'assets/images/inventory.svg',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/inventory',
@@ -69,10 +64,9 @@ export class AppMenuService {
 			}]
 		},
 		{
-			'icon': 'fa fa-align-left',
 			'title': 'Report',
 			'url': '/menu',
-			'img': 'assets/images/reports.svg',
+			'icon': 'assets/images/reports.svg',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/reports',
@@ -88,10 +82,9 @@ export class AppMenuService {
 			}]
 		},
 		{
-			'icon': 'fa fa-align-left',
 			'title': 'Sales',
 			'url': '/menu',
-			'img': 'assets/images/sales.svg',
+			'icon': 'assets/images/sales.svg',
 			'caret': 'true',
 			'submenu': [{
 				'url': '/sales',
@@ -107,10 +100,9 @@ export class AppMenuService {
 			}]
 		},
 		{
-			'icon': 'fa fa-sitemap',
 			'title': 'Quick links',
 			'url': '/quick-links',
-			'img': 'assets/images/quick-links.svg',
+			'icon': 'assets/images/quick-links.svg',
 		},];
 
 		// {
